@@ -21,14 +21,14 @@ permalink: /
     bottom:0px !important;
     }
   .marker {
-    background-color: #1c2e71;
+    background-color: #2094f3;
     opacity: 0.5;
     background-size: cover;
     border-radius: 50%;
     cursor: pointer;
   }
   .grp_marker {
-    background-color: #31dce4;
+    background-color: #036291;
     opacity: .9;
     border-radius: 50%;
   }
@@ -191,7 +191,7 @@ permalink: /
 
   // create legend: from https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/
   const legend = document.getElementById('legend');
-  const colors = ['#1c2e71', '#31dce4']
+  const colors = ['#036291', '#2094f3']
   const layers = ['Clusters', 'Institutions'];
   layers.forEach((layer, i) => {
     const color = colors[i];
