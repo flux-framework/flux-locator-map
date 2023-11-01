@@ -1,7 +1,7 @@
 ---
 layout: page
-title: hpc.social
-subtitle: The hpc.social Community HPC Resources Map
+title: Flux Framework Locator Map
+subtitle: The Flux Framework Locator Map
 use-site-title: true
 permalink: /
 ---

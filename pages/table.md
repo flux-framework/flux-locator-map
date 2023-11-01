@@ -1,7 +1,7 @@
 ---
 layout: page
-title: hpc.social table
-subtitle: The hpc.social Community HPC Resources Table
+title: Flux Framework Locator Map table
+subtitle: The Flux Framework Locator Map Table
 use-site-title: true
 permalink: tabular/
 ---

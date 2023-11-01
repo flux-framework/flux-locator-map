@@ -3,6 +3,7 @@
 # Author @vsoch, Written February 2020, Updated November 2023
 # Updated June 2020, removing locations lookup testing (no longer used)
 # Updated November 2022 for hpc.social
+# Updated November 2023 for Flux Framework
 # Read in the locations.csv to validate each entry
 
 import os
