@@ -1,6 +1,6 @@
-# The Flux Framework Center Map
+# The Flux Framework Locator Map
 
-These are centers or institutions that reported using Flux. The original list was assembled (primarily through email correspondence) for the R&D 100 award, and the map will be updated with new centers into the future. We currently have automation disabled pending discussion about design.
+These are centers or institutions that reported using Flux. We will update this repository (and the map) with exactly what the means soon. The original list was assembled (primarily through email correspondence) for the R&D 100 award, and the map will be updated with new centers into the future. We currently have automation disabled pending discussion about design.
 
 ![assets/img/map.png](assets/img/map.png)
 
