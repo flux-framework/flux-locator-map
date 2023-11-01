@@ -1,32 +1,32 @@
 address,lat,lng,name,url
-"berkeley, california, united states",37.8753497,-122.23963364918777,NERSC,https://www.nersc.gov/
-"edinburgh, united kingdom",55.9533456,-3.1883749,EPCC,https://www.epcc.ed.ac.uk/
-"cambridge, massachusetts, united states",42.3750997,-71.1056157,MIT Office of Research Computing and Data,https://orcd.mit.edu/
-"zagreb, zagreb, croatia",45.84264135,15.962231476593626,University of Zagreb- University Computing Centre- Croatia,https://www.srce.hr/en/
-"lubbock, texas, united states",33.5635206,-101.879336,Texas Tech University High Performance Computing Center,https://www.depts.ttu.edu/hpcc
-"sheffield, south yorkshire, united kingdom",53.3806626,-1.4702278,Research and Innovation IT- IT Services- University of Sheffield,https://www.sheffield.ac.uk/it-services
-"urbana, illinois, united states",40.1117174,-88.207301,The National Center for Supercomputing Applications,https://ncsa.illinois.edu
-"sheffield, south yorkshire, united kingdom",53.3806626,-1.4702278,University of Sheffield - IT Services - Research & Innovation IT team,https://github.com/rcgsheffield
-"pittsburgh, pennsylvania, united states",40.4416941,-79.9900861,Pittsburgh Supercomputing Center,https://www.psc.edu/
-"west lafayette, indiana, united states",40.4258686,-86.9080655,Purdue's Rosen Center for Advanced Computing,https://www.rcac.purdue.edu/
-"stanford, california, united states",37.426540700000004,-122.17030545534064,Stanford High Performance Computing Center,https://hpcc.stanford.edu
-"san jose, california, united states",37.3361663,-121.890591,Steve Jones,https://www.hpcclusters.com
-"stanford, california, united states",37.426540700000004,-122.17030545534064,Stanford Research Computing Center,https://srcc.stanford.edu
-"la jolla, california, united states",32.8401623,-117.2740777,Marty Kandes,https://www.sdsc.edu
-"blacksburg, virginia, united states",37.2296566,-80.4136767,Virginia Tech Advanced Research Computing,https://www.arc.vt.edu
-"st. louis, missouri, united states of america",38.6319657,-90.2428756,Washington University in St. Louis Research Infrastructure Services,https://ris.wustl.edu/
-"cambridge, massachusetts, united states",42.3750997,-71.1056157,Broad Institute of Harvard and MIT,https://www.broadinstitute.org
-"birmingham, west midlands, united kingdom",52.4796992,-1.9026911,Advanced Research Computing- University of Birmingham- UK,http://bear.bham.ac.uk
-"stanford, california, united states",37.426540700000004,-122.17030545534064,Stanford High Performance Computing Center,https://hpcc.stanford.edu
-"ghent, belgium",51.0538286,3.7250121,HPC-UGent,https://www.ugent.be/hpc
-"lincoln, nebraska, u.s.",40.725838,-96.591854,Holland Computing Center,https://hcc.unl.edu/
-"brisbane, queensland, australia",-27.4689682,153.0234991,Robert Denham,https://www.jrsrp.org.au/
-"davis, california, united states",38.545379,-121.744583,University of California- Davis,https://hpc.ucdavis.edu
-"houston, texas, united states",29.7589382,-95.3676974,Rice University,https://www.rice.edu/
-"hanover, new hampshire, united states",43.703622,-72.288666,Research Computing at Dartmouth College,https://rc.dartmouth.edu/
-"blacksburg, va, united states",37.2296566,-80.4136767,Synergy lab,https://synergy.cs.vt.edu/
-"eau claire, wisconsin, united states",44.811349,-91.4984941,Blugold Center for High Performance Computing,https://hpc.uwec.edu
-"philadelphia, pennsylvania, united states of america",39.9527237,-75.1635262,University of Pennsylvania School of Engineering and Applied Science,https://www.seas.upenn.edu/
-"philadelphia, pennsylvania, united states of america",39.9527237,-75.1635262,University of Pennsylvania- School of Engineering and Applied Science,https://www.seas.upenn.edu
-"cardiff, wales",51.4816546,-3.1791934,Group,https://www.cardiff.ac.uk/arcca
-"st. johns, newfoundland and labrador, canada",56.69228425,-60.93731851587222,OStueker,https://ace-net.ca/
+"livermore, california, united states",37.6820583,-121.768053,Lawrence Livermore National Laboratory,https://computing.llnl.gov/
+"los alamos, new mexico, united states",35.88137,-106.298959,Los Alamos National Laboratory,https://lanl.gov/
+"albuquerque, new mexico, united states",35.0841034,-106.650985,Sandia National Laboratories,https://www.sandia.gov/
+"oak ridge, tennessee, united states",36.0103562,-84.2696449,Oak Ridge National Laboratory,https://www.ornl.gov/
+"berkeley, california, united states",37.8708393,-122.272863,National Energy Research Scientific Computing Center,https://www.nersc.gov
+"upton, new york, united states",40.869543,-72.8867697,Brookhaven National Laboratory,https://www.bnl.gov/
+"lemont, illinois, united states",41.6737149,-88.0016263,Argonne National Laboratory,https://www.anl.gov/
+"west milton, new york, united states",43.0375748,-73.9292912,Naval Nuclear Laboratory,https://navalnuclearlab.energy.gov/
+"kobe, japan",34.6932379,135.1943764,RIKEN Center for Computational Science,https://www.r-ccs.riken.jp/en/
+"paris, france",48.8534951,2.3483915,French Alternative Energies and Atomic Energy Commission (CEA),https://www.cea.fr/english
+"aachen, germany",50.776351,6.083862,"RWTCH Aachen University, German Research School for Simulation Sciences",https://www.aices.rwth-aachen.de/en/
+"cambridge, massachusetts, united states",42.3655767,-71.1040018,Massachusetts Institute of Technology,https://www.mit.edu/
+"champaign, illinois, united states",40.1164841,-88.2430932,Univeristy of illinois Urbana-Champaign,https://illinois.edu/
+"raleigh, north carolina, united states",35.7803977,-78.6390989,North Carolina State University,https://www.ncsu.edu/
+"salt lake city, utah, united states",40.7596198,-111.886797,University of Utah,https://www.utah.edu/
+"newark, delaware, united states",39.6828358,-75.7515682,University of Delaware,https://www.udel.edu/
+"knoxville, tennessee, united states",35.9603948,-83.9210261,University of Tennessee,https://www.utk.edu/
+"chicago, illinois, united states",41.8755616,-87.6244212,University of Chicago,https://www.uchicago.edu/en
+"new brunswick, new jersey, united states",40.4862174,-74.4518173,Rutgers University,https://www.rutgers.edu/
+"tallahassee, florida, united states",30.4380832,-84.2809332,Florida State University,https://www.fsu.edu/
+"maryland, college park, united states",39.0307198,-76.88017863033588,University of Maryland,https://umd.edu/
+"blacksburg, virginia, united states",37.2296566,-80.4136767,Virginia Tech,https://www.vt.edu/
+"eugene, oregon, united states",44.0505054,-123.0950506,University of Oregon,https://www.uoregon.edu/
+"chicago, illinois, united states",41.8755616,-87.6244212,Illinois Institute of Tech,https://www.iit.edu/
+"tuscon, arizona, united states",32.3090726,-111.0827253,University of Arizona,https://www.arizona.edu/
+"mã¼nchen, germany",52.5055795,13.5590615,Technical University Munich,https://www.tum.de/en/
+"yorktown heights, new york, united states",41.2709274,-73.7776336,IBM TJ Watson Research Center,https://research.ibm.com/labs/watson/visitor.shtml
+"raleigh, north carolina, united states",35.7803977,-78.6390989,RedHat OpenShift,https://www.redhat.com/en
+"houston, texas, united states",29.7589382,-95.3676974,HPE,https://www.hpe.com/
+"portland, oregon, united states",45.5202471,-122.674194,Intel,https://www.intel.com/content/www/us/en/corporate-responsibility/intel-in-oregon.html
+"seattle, washington, united states",47.6038321,-122.330062,Amazon Web Services,https://aws.amazon.com/

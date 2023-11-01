@@ -1,18 +1,18 @@
 #!/usr/bin/env python
 
-# Author @vsoch, Written February 2020
+# Author @vsoch, Written February 2020, Updated November 2023
 # Updated June 2020, removing locations lookup testing (no longer used)
 # Updated November 2022 for hpc.social
 # Read in the locations.csv to validate each entry
 
 import os
 import csv
+
 here = os.path.dirname(os.path.abspath(__file__))
 
 
 def read_rows(filepath, newline="", delim=","):
-    """read in the data rows of a csv file.
-    """
+    """read in the data rows of a csv file."""
     # Read in the entire membership counts
     with open(filepath, newline=newline) as infile:
         reader = csv.reader(infile, delimiter=delim)
@@ -36,7 +36,7 @@ def test_group_locations(tmp_path):
 
 def test_locations(tmp_path):
     """The locations.csv file is a comma separated file of locations.
-       Each should have a name (lowercase), latitude, and longitude.
+    Each should have a name (lowercase), latitude, and longitude.
     """
     filepath = os.path.join(os.path.dirname(here), "_data", "locations.csv")
     assert os.path.exists(filepath)
@@ -49,7 +49,7 @@ def test_locations(tmp_path):
     assert header[1] == "lat"
     assert header[2] == "lng"
     assert header[3] == "count"
-    assert header[4] == 'name'
+    assert header[4] == "name"
 
     # 2. Check that name is all lowercase
     print("Checking names, latitudes, longitudes, and counts != 0")

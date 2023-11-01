@@ -6,15 +6,8 @@ permalink: /api/data.json
     {
         "address": "{{ loc.address }}",
         "count": {{ loc.count }},
-        "type": "individual",
+        "type": "institution",
         "name": "{{ loc.name }}",
-        "website": ""
-    },{% endfor %}{% for loc in site.data.group-locations %}
-    {
-        "address": "{{ loc.address }}",
-        "count": 1,
-        "type": "group",
-        "name": "{{ loc.name }}",
-        "website": "{{ loc.url }}"
+        "website": "{% if loc.url %}{{ loc.url }}{% endif %}"
     }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
 ]

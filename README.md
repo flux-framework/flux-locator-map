@@ -1,12 +1,12 @@
-# The HPC.social Community Map
+# The Flux Framework Center Map
 
-This repository contains static files and workflows to generate the HPC.social map. 
+These are centers or institutions that reported using Flux. The original list was assembled (primarily through email correspondence) for the R&D 100 award, and the map will be updated with new centers into the future. We currently have automation disabled pending discussion about design.
 
-![assets/img/logo.png](assets/img/logo.png)
+![assets/img/map.png](assets/img/map.png)
 
 ## How does it work?
 
-The form that is provided [on the site](https://hpc.social/projects/map/) is fed into Google 
+The form that is provided [on the site](https://flux-framework.org/locator-map/) is fed into Google 
 Sheets, and the workflow to [.github/workflows/update-map.yml](.github/workflows/update-map.yml) is able to
 parse the sheet for locations and then update the map! In addition to spot checks of the
 sheet, during the addition we have an automated workflow that checks any provided url for:
@@ -79,10 +79,8 @@ $ python scripts/update_map.py
 ```
 
 This automation runs nightly to update our map. But we aren't perfect, and sometimes
-the data going into the form is not perfect! If you see a problem, please [open an issue](https://github.com/hpc-social/map/issues).
-
+the data going into the form is not perfect! If you see a problem, please [open an issue](https://github.com/flux-framework/locator-map/issues).
 
 ## 🎨️ Thanks 🎨️
 
-The HPC.social map is derived from the [US-RSE Map](https://us-rse.org/usrse-map) which was
-also designed and implemented by [@vsoch](https://github.com/vsoch).
+The Flux Framework Center map is derived from [the HPC.social map](https://github.com/hpc-social/map), which is derived from the [US-RSE Map](https://us-rse.org/usrse-map), both of which were designed and implemented by [@vsoch](https://github.com/vsoch).

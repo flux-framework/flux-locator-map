@@ -1,17 +1,17 @@
 # --- General options --- #
 
-url: "https://hpc-social.github.io"
-baseurl: "/map"
+url: "https://flux-framework.org"
+baseurl: "/locator-map"
 title-img: /assets/img/logo.png
 twitter-img: /assets/img/logo.png
 mapbox: "pk.eyJ1IjoidnNvY2giLCJhIjoiY2sxdXE4dGZ6MGxveTNibzBqc2E5OXpzbiJ9.OdVyKYmHLhSsk03iQoN1kw"
 
 # Name of website
-title: HPC.social
-github_url: hpc-social/map
+title: Flux Locator Map
+github_url: flux-framework/locator-map
 
 # Short description of your site
-description: The HPC.social Community
+description: The Flux Framework Locator Map
 
 # --- Navigation bar options --- #
 
@@ -21,16 +21,16 @@ avatar: "/assets/img/logo.png"
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://hpc-social.github.io"
+  Home: "https://flux-framework.org"
 
 # --- Background colour/image options --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#000"
+navbar-col: "#2094f3"
 navbar-text-col: "#ffffff"
 navbar-children-col: "#500e3d"
-page-col: "#000"
+page-col: "#2094f3"
 link-col: "#31dce4"
 hover-col: "#31dce4"
 footer-col: "#F5F5F5"
@@ -49,12 +49,12 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: HPC-social
+  name: vsoch
 
 # Social Network Links
 social-network-links:
-  github: hpc-social
-  twitter: hpc_social
+  github: flux-framework
+  twitter: FluxFramework
 
 # Select which share links to show in posts
 share-links-active:
@@ -65,7 +65,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "hpc.social"
+url-pretty: "flux-framework"
 
 # Output options (more information on Jekyll's site)
 timezone: "America/New_York"

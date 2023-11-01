@@ -148,7 +148,7 @@ permalink: /
     console.log(marker.data)
     if (marker.data.description != "") {
           description = '<p style="margin: 0; padding: 0;">' +
-            '<strong>people</strong>: ' + marker.data.description +
+            '<strong>institutions</strong>: ' + marker.data.description +
           '</p>'
     }
     
@@ -192,7 +192,7 @@ permalink: /
   // create legend: from https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/
   const legend = document.getElementById('legend');
   const colors = ['#1c2e71', '#31dce4']
-  const layers = ['Community Members','Centers and Groups'];
+  const layers = ['Institutions','Clusters'];
   layers.forEach((layer, i) => {
     const color = colors[i];
     const item = document.createElement('div');

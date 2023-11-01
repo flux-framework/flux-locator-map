@@ -1,90 +1,30 @@
 address,lat,lng,count,name
-"boulder, colorado, united states",40.0154155,-105.270241,1,
-"urbana, illinois, united states",40.1117174,-88.207301,2,galen_arnold
-"university city, missouri, united states",38.6569083,-90.3103443,1,
-"sammamish, washington, united states",47.6088445,-122.0423067,1,Suhaib Khan
-"santa clara, california, united states",37.2333253,-121.6846349,1,
-"boston, massachusetts, united states",42.3554334,-71.060511,2,Matt V.
-"ilmenau, thuringia, germany",50.6867695,10.9142385,1,
-"singapore, singapore",1.357107,103.8194992,1,Miguel Dias Costa
-"lubbock, texas, usa",33.5635206,-101.879336,1,
-"cookeville, tennessee, united states",36.1623886,-85.4997057,1,
-"cordoba, cordoba, argentina",-31.4173391,-64.183319,1,Carlos Bederian
-"london, united kingdom",51.5073219,-0.1276474,1,John Hearns
-"grenoble, france",45.1875602,5.7357819,1,
-"durham, united kingdom",54.666667,-1.75,1,
-"denver, colorado, united states",39.7392364,-104.984862,1,ajdecon
-"rottenburg am neckar, baden-wurttemberg, germany",48.47696,8.9336788,1,Presalesperson at the Edge
-"cambridge, massachusetts, united states",42.3750997,-71.1056157,1,James Cuff- Executive Director @ MIT
-"los angeles, california, united states",34.0536909,-118.242766,2,
-"canberra, australian capital territory, australia",-35.2975906,149.1012676,1,
-"melbourne, victoria, australia",-37.8142176,144.9631608,1,Matt
-"austin, texas, united states",30.2711286,-97.7436995,2,Joshua Mora
-"college station, texas, united states",30.5955289,-96.3071042,1,
-"albuquerque, new mexico, united states",35.0841034,-106.650985,2,
-"taunton, somerset, united kingdom",51.0147895,-3.1029086,1,
-"ottawa, ontario, canada",45.4208777,-75.6901106,1,FelixCLC
-"oakland, california, united states",37.8044557,-122.271356,1,Glenn K. Lockwood
-"middletown, new york, united states",40.8397222,-73.8316667,1,
-"bloomington, indiana, united states",39.1670396,-86.5342881,2,
-"redondo beach, california, united states",33.8455911,-118.3886766,1,
-"munich, germany",48.1371079,11.5753822,1,
-"peoria, arizona, united states",33.5806115,-112.237294,1,
-"exeter, united kingdom",50.7255794,-3.5269497,1,
-"catania, italy",37.5023612,15.0873718,1,
-"erlangen, bavaria, germany",49.5928616,11.0056,1,
-"madison, wisconsin, united states",43.074761,-89.3837613,1,Jason Bowen
-"york, united kingdom",53.9590555,-1.0815361,1,
-"columbia, missouri, united states",38.951883,-92.3337366,1,
-"amsterdam, noord-holland, netherlands",52.3727598,4.8936041,1,Martin Hilgeman- HPC Performance Lead at Dell Technologies
-"west roxbury, massachusetts, united states",42.2792649,-71.1494972,1,
-"regensburg, bavaria, germany",49.0195333,12.0974869,1,Wolfgang Gentzsch
-"darmstadt, hesse, germany",49.8851869,8.6736295,1,
-"berkeley, california, united states",37.8753497,-122.23963364918777,1,
-"golden, colorado, united states",39.7546349,-105.22058,2,
-"durham, durham, united kingdom",54.7770139,-1.5756205,1,
-"toulouse, 31 - haute-garonne, france",43.6044622,1.4442469,1,
-"st austell, cornwall, united kingdom",50.338466,-4.7882104,1,
-"thuwal, saudi arabia",22.2833454,39.1128145,1,Alex Moura
-"stanford, california, united states",37.426540700000004,-122.17030545534064,1,Ruth Marinshaw
-"ithaca, new york, united states",42.43717945,-76.54836230003966,1,Ben Carr
-"ann arbor, michigan, united states",42.2681569,-83.7312291,1,
-"julich, germany",50.9220931,6.3611015,1,Robert Speck
-"utrecht, netherlands",52.080985600000005,5.12768396945229,1,
-"blacksburg, virginia, united states",37.2296566,-80.4136767,1,Matthew Brown
-"reading, berkshire, united kingdom",51.45200635,-0.9684735493619272,1,
-"lexington, kentucky, united states",38.0464066,-84.4970393,1,
-"munich, bavaria, germany",48.1371079,11.5753822,2,
-"terre haute, indiana, united states",39.4667025,-87.4139119,1,Jeff Layton
-"troy, new york, united states",42.7284117,-73.6917878,1,
-"nashville, tennessee, usa",36.1622767,-86.7742984,1,Vanderbilt University
-"pittsburgh, pennsylvania, usa",40.4416941,-79.9900861,1,
 "livermore, california, united states",37.6820583,-121.768053,1,Lawrence Livermore National Laboratory
-"cambridge, united kingdom",52.2055314,0.1186637,2,Ahmed
-"canberra, australia",-35.2975906,149.1012676,1,No
-"bergerac, france",44.8534568,0.487531,1,
-"bar harbor, maine, united states",44.3876378,-68.2043361,1,
-"faro, portugal",37.0162727,-7.9351771,1,
-"onna, okinawa, japan",26.493888,127.865372,1,
-"ithaca, new york, usa",42.43717945,-76.54836230003966,1,Self
-"toronto, canada",43.6534817,-79.3839347,1,
-"curitiba, parana, brasil",-25.4295963,-49.2712724,1,Pedro Alves Batista - Madya Research
-"zurich, zurich, switzerland",47.3744489,8.5410422,1,
-"ditzingen, germany",48.8263983,9.0658446,1,Thomas Schwinge
-"columbus, ohio, united states",39.9622601,-83.0007065,1,
-"knoxville, tennessee, united states",35.9603948,-83.9210261,1,
-"lugano, ticino, switzerland",46.0038279,8.9512134,1,
-"baton rouge, la, united states",30.4494155,-91.1869659,1,
-"baku, azerbaijan, azerbaijan",40.3699168,49.834199,1,
-"garching bei muenchen, bayern, germany",48.2513878,11.6509662,1,
-"rock hill, south carolina, united states",34.9248667,-81.0250784,1,
-"shanghai, shanghai, china",31.2323437,121.4691024,1,Nobody
-"denton, texas, usa",33.1838787,-97.1413417,1,
-"weatherford, oklahoma, united states",35.5261633,-98.7075744,1,J Evert
-"bayreuth, deutschland",49.9427202,11.5763079,1,
-"dublin, ireland",53.3493795,-6.2605593,1,SheriF
-"toronto, ontario, canada",43.6534817,-79.3839347,1,
-"rochester, mn, united states",44.0234387,-92.4630182,1,
-"odessa, missouri, united states",38.9995797,-93.9539663,1,Shane Corder
-"hamilton, ontario, canada",43.2560802,-79.8728583,1,Ricardo Barros Lourenco (McMaster University)
-"bellevue, washington, united states",47.6144219,-122.192337,1,pharmashawarma
+"los alamos, new mexico, united states",35.88137,-106.298959,1,Los Alamos National Laboratory
+"albuquerque, new mexico, united states",35.0841034,-106.650985,1,Sandia National Laboratories
+"oak ridge, tennessee, united states",36.0103562,-84.2696449,1,Oak Ridge National Laboratory
+"berkeley, california, united states",37.8708393,-122.272863,1,National Energy Research Scientific Computing Center
+"upton, new york, united states",40.869543,-72.8867697,1,Brookhaven National Laboratory
+"lemont, illinois, united states",41.6737149,-88.0016263,1,Argonne National Laboratory
+"west milton, new york, united states",43.0375748,-73.9292912,1,Naval Nuclear Laboratory
+"kobe, japan",34.6932379,135.1943764,1,RIKEN Center for Computational Science
+"paris, france",48.8534951,2.3483915,1,French Alternative Energies and Atomic Energy Commission (CEA)
+"aachen, germany",50.776351,6.083862,1,"RWTCH Aachen University, German Research School for Simulation Sciences"
+"cambridge, massachusetts, united states",42.3655767,-71.1040018,1,Massachusetts Institute of Technology
+"champaign, illinois, united states",40.1164841,-88.2430932,1,Univeristy of illinois Urbana-Champaign
+"raleigh, north carolina, united states",35.7803977,-78.6390989,2,RedHat OpenShift|North Carolina State University
+"salt lake city, utah, united states",40.7596198,-111.886797,1,University of Utah
+"newark, delaware, united states",39.6828358,-75.7515682,1,University of Delaware
+"knoxville, tennessee, united states",35.9603948,-83.9210261,1,University of Tennessee
+"chicago, illinois, united states",41.8755616,-87.6244212,2,Illinois Institute of Tech|University of Chicago
+"new brunswick, new jersey, united states",40.4862174,-74.4518173,1,Rutgers University
+"tallahassee, florida, united states",30.4380832,-84.2809332,1,Florida State University
+"maryland, college park, united states",39.0307198,-76.88017863033588,1,University of Maryland
+"blacksburg, virginia, united states",37.2296566,-80.4136767,1,Virginia Tech
+"eugene, oregon, united states",44.0505054,-123.0950506,1,University of Oregon
+"tuscon, arizona, united states",32.3090726,-111.0827253,1,University of Arizona
+"mã¼nchen, germany",52.5055795,13.5590615,1,Technical University Munich
+"yorktown heights, new york, united states",41.2709274,-73.7776336,1,IBM TJ Watson Research Center
+"houston, texas, united states",29.7589382,-95.3676974,1,HPE
+"portland, oregon, united states",45.5202471,-122.674194,1,Intel
+"seattle, washington, united states",47.6038321,-122.330062,1,Amazon Web Services

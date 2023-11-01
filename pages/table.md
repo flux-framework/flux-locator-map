@@ -13,8 +13,8 @@ permalink: tabular/
  color: white;
 }
 td {
-  color: white;
-  background-color: #333;
+  color: #333;
+  background-color: #fff;
 }
 thead {
   background-color: yellow;
@@ -33,7 +33,7 @@ thead {
       <th>Location</th>
       <th>Type</th>
       <th>Count</th>
-      <th>People</th>
+      <th>Institution</th>
       <th>Website</th>
      </tr>
   </thead>      

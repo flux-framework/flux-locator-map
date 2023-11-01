@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
-# Update map will retrieve locations via a csv, and then generate a new yaml file using lookup of schools
-# https://docs.google.com/spreadsheets/d/e/2PACX-1vSTOdevfR0mk6QS9FFlKbVxlddg-M8mhhYIebh4sPtCktQvvkdRPY_rjUMR6May82aFWCjQaf915JHF/pub?output=tsv
-# requests is required
-# Yes, this is a bit spaghetti code. Even I like writing that way every so often!
-# Copyright @vsoch, 2022
+# Update map will retrieve locations via a csv, and then generate a new yaml file using lookup
+# Copyright @vsoch, 2022-2023
 
 import csv
 import json
@@ -19,7 +16,9 @@ from geopy.geocoders import Nominatim
 here = os.path.dirname(os.path.abspath(__file__))
 
 scanned_url_file = os.path.join(here, "scanned-urls.txt")
-scanner_token = os.environ.get("SCANNER_KEY")
+# Disabled for now
+# scanner_token = os.environ.get("SCANNER_KEY")
+scanner_token = None
 
 
 def load_scanned_urls():
@@ -148,35 +147,43 @@ def is_malicious_url(url):
     return False
 
 
+def strip(name):
+    for strip in [" ", ",", " ", ","]:
+        name = name.strip(strip)
+    return name
+
+
 def parse_location_line(line):
     """
     Given a location line, parse into a map metadata entry
     """
     # timestamp, state, city, country, individual (blank) or group, name
     parts = line.split("\t")
-    state = parts[1].strip()
+    name = parts[1].strip()
     city = parts[2].strip()
-    country = parts[3].strip()
+    state = parts[3].strip()
+    country = parts[4].strip()
+    context = parts[5].strip()
+    uses = parts[6].strip()
 
-    name = None
     url = None
     if len(parts) > 6:
-        url = parts[6].strip()
-    if len(parts) > 5:
-        name = parts[5].strip().replace(",", "-")
+        url = parts[7].strip()
 
     # If we have a url and key, check if
     if url and scanner_token:
         if is_malicious_url(url):
             sys.exit(f"Malicious url {url} detected, cancelling update.")
 
+    name = strip(name)
     entry = {
         "state": state,
         "city": city,
         "country": country,
-        "is_individual": url is None,
+        "context": context,
         "url": url,
         "name": name,
+        "uses": uses,
     }
 
     address = "" if not city else city
@@ -184,10 +191,7 @@ def parse_location_line(line):
         address += f", {state}" if address else state
     if country:
         address += f", {country}" if address else country
-    address = address.lower()
-
-    for strip in [" ", ",", " ", ","]:
-        address = address.strip(strip)
+    address = strip(address.lower())
     entry["address"] = address
     return entry
 
@@ -213,20 +217,21 @@ def get_locations(lines):
     locations = {x[0]: x[1:] for x in locations}
 
     # Create geolocator
-    geolocator = Nominatim(user_agent="hpc.social")
+    geolocator = Nominatim(user_agent="flux-framework")
 
     # Get lats/long for each location, keep track of missing
     # This first step just cares about getting latitude and longitude
     missing = set()
     entries = []
+
     for line in lines:
         entry = parse_location_line(line)
+
         entries.append(entry)
         address = entry["address"]
 
         # This is explicitly to get locations matched to the names
         if address not in locations and address not in group_locations:
-
             print(f"Looking up {address}")
             location = get_location(geolocator, address)
 
@@ -251,7 +256,7 @@ def get_google_sheet():
     Read tab separated values sheet with locations!
     """
     # A tsv download for just the worksheet with city, state
-    sheet = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTOdevfR0mk6QS9FFlKbVxlddg-M8mhhYIebh4sPtCktQvvkdRPY_rjUMR6May82aFWCjQaf915JHF/pub?output=tsv"
+    sheet = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQuJIHrBgV7Zqvtibl7I5ynFxfCMxDbMntDYIBaHU93u1a2eqKJDweg8VsLDpdQ2Fcci8AfJL5TUuiw/pub?gid=10255536&single=true&output=tsv"
 
     # Ensure the response is okay
     response = requests.get(sheet)
@@ -289,9 +294,6 @@ def main():
         if entry["address"] not in locations and entry["address"] != "remote":
             unknown.add(entry["address"])
             continue
-        # Skip group entries
-        if entry["is_individual"] is False:
-            continue
         if entry["address"] not in names:
             names[entry["address"]] = {"count": 0, "names": set()}
         names[entry["address"]]["count"] += 1
@@ -309,7 +311,6 @@ def main():
     # ["address", "lat", "lng", "count", "name"]
     updated = [["address", "lat", "lng", "count", "name"]]
     for address, entry in names.items():
-
         people = ""
         if entry["names"]:
             people = "|".join(list(entry["names"]))
