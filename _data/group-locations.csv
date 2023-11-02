@@ -9,7 +9,7 @@ address,lat,lng,name,url
 "west milton, new york, united states",43.0375748,-73.9292912,Naval Nuclear Laboratory,https://navalnuclearlab.energy.gov/
 "kobe, japan",34.6932379,135.1943764,RIKEN Center for Computational Science,https://www.r-ccs.riken.jp/en/
 "paris, france",48.8534951,2.3483915,French Alternative Energies and Atomic Energy Commission (CEA),https://www.cea.fr/english
-"aachen, germany",50.776351,6.083862,"RWTCH Aachen University, German Research School for Simulation Sciences",https://www.aices.rwth-aachen.de/en/
+"aachen, germany",50.776351,6.083862,"RWTH Aachen University, German Research School for Simulation Sciences",https://www.aices.rwth-aachen.de/en/
 "cambridge, massachusetts, united states",42.3655767,-71.1040018,Massachusetts Institute of Technology,https://www.mit.edu/
 "champaign, illinois, united states",40.1164841,-88.2430932,Univeristy of illinois Urbana-Champaign,https://illinois.edu/
 "raleigh, north carolina, united states",35.7803977,-78.6390989,North Carolina State University,https://www.ncsu.edu/
@@ -24,7 +24,7 @@ address,lat,lng,name,url
 "eugene, oregon, united states",44.0505054,-123.0950506,University of Oregon,https://www.uoregon.edu/
 "chicago, illinois, united states",41.8755616,-87.6244212,Illinois Institute of Tech,https://www.iit.edu/
 "tuscon, arizona, united states",32.3090726,-111.0827253,University of Arizona,https://www.arizona.edu/
-"mã¼nchen, germany",52.5055795,13.5590615,Technical University Munich,https://www.tum.de/en/
+"mã¼nchen, germany",48.148056,11.568056,Technical University Munich,https://www.tum.de/en/
 "yorktown heights, new york, united states",41.2709274,-73.7776336,IBM TJ Watson Research Center,https://research.ibm.com/labs/watson/visitor.shtml
 "raleigh, north carolina, united states",35.7803977,-78.6390989,RedHat OpenShift,https://www.redhat.com/en
 "houston, texas, united states",29.7589382,-95.3676974,HPE,https://www.hpe.com/
